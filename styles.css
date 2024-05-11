@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 200px;
+    padding: 20px 300px;
     background-color: #1f2937;
     color: #F9FAf8;
     align-items: center;
@@ -24,14 +24,14 @@ header {
     font-weight: bold;
 }
 
-/* Links styling */
+/* Header links styling */
 
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 li {
@@ -44,21 +44,26 @@ li {
 div.hero-section {
     display: flex;
     background-color: #1f2937;
-    padding: 100px 200px;
+    padding: 100px 300px;
     color: #F9FAF8;
-    flex-direction: row;
-    gap: 32px;
     align-items: center;
+    justify-content: space-between;
+    gap: 32px;
 }
 
 div.hero-section-text {
+    display: flex;
     flex: 1;
+    flex-direction: column;
 }
 
 div.hero-section-img {
-    flex: 2;
-    max-width:fit-content;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
+
+/* Header hero text styling */
 
 h1 {
     margin: 0;
@@ -79,10 +84,5 @@ button {
     border-radius: 10px;
     border-color: #3882F6;
     padding: 10px 30px;
+    max-width: 150px;
 }
-
-/* 
-img {
-    max-width: 600px;
-    max-height: 300px
-} */
