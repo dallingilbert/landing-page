@@ -41,7 +41,7 @@ li {
 
 /* Hero section styling */
 
-div.hero-section {
+.hero-section {
     display: flex;
     background-color: #1f2937;
     padding: 100px 300px;
@@ -51,13 +51,13 @@ div.hero-section {
     gap: 32px;
 }
 
-div.hero-section-text {
+.hero-section-text {
     display: flex;
     flex: 1;
     flex-direction: column;
 }
 
-div.hero-section-img {
+.hero-section-img {
     display: flex;
     flex: 1;
     justify-content: flex-end;
@@ -85,4 +85,72 @@ button {
     border-color: #3882F6;
     padding: 10px 30px;
     max-width: 150px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
+    padding-bottom: 100px;
+}
+
+.info-section > h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.icon-description {
+    color: #1F2937;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box > img {
+    height: 128px;
+    width: 128px;
+    border-radius: 20px;
+}
+
+.box > p {
+    max-width: 300px;
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px 300px;
+    align-items: flex-end;
+    row-gap: 20px;
+}
+
+.quote, quote.p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section > p {
+    margin: 0;
+}
+
+p.author {
+    font-weight: bold;
+    font-size: 32px;
+    color: #1F2937;
 }
