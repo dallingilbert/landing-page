@@ -71,10 +71,12 @@ h1 {
     font-weight: bolder;
 }
 
-p {
+.hero-section-text > p {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* General Button styling */
 
 button {
     background-color: #3882F6;
@@ -86,6 +88,8 @@ button {
     padding: 10px 30px;
     max-width: 150px;
 }
+
+/* Info section styling */
 
 .info-section {
     display: flex;
@@ -105,6 +109,8 @@ button {
 .icon-description {
     color: #1F2937;
 }
+
+/* Flex box wrapper */
 
 .box-wrapper {
     display: flex;
@@ -130,11 +136,13 @@ button {
     text-align: center;
 }
 
+/* Quote section styling */
+
 .quote-section {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 150px 300px;
+    padding: 150px 250px;
     align-items: flex-end;
     row-gap: 20px;
 }
