@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 300px;
+    padding: 20px 250px;
     background-color: #1f2937;
     color: #F9FAf8;
     align-items: center;
@@ -39,28 +39,43 @@ li {
     color: #E5E7EB;
 }
 
+.logo > img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100px;
+}
+
 /* Hero section styling */
 
 .hero-section {
     display: flex;
     background-color: #1f2937;
-    padding: 100px 300px;
+    padding: 80px 250px;
     color: #F9FAF8;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    gap: 120px;
 }
 
 .hero-section-text {
     display: flex;
-    flex: 1;
+    flex: 3;
     flex-direction: column;
+    max-width: 675px;
 }
 
 .hero-section-img {
     display: flex;
-    flex: 1;
     justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.hero-section-img > img {
+    width: 100%;
+    height: auto
 }
 
 /* Header hero text styling */
@@ -94,7 +109,7 @@ button {
 .info-section {
     display: flex;
     flex-direction: column;
-    padding: 50px 300px;
+    padding: 50px 200px;
     padding-bottom: 100px;
 }
 
@@ -119,20 +134,20 @@ button {
     gap: 32px;
 }
 
+
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .box > img {
-    height: 128px;
-    width: 128px;
-    border-radius: 20px;
+    flex: 2;
 }
 
 .box > p {
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
 }
 
@@ -161,4 +176,38 @@ p.author {
     font-weight: bold;
     font-size: 32px;
     color: #1F2937;
+}
+
+/* Call to action styling */
+.call-to-action {
+    padding: 75px 200px;
+}
+
+.call-to-action > .box-wrapper {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.text > h2 {
+    margin: 0;
+    font-weight: bolder;
+    color:#E5E7EB;
+}
+
+.text > p {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.box-wrapper > button {
+    border-color: #E5E7EB;
+    border-width: 2px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
 }
